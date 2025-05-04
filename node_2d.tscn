@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://m3lxmovx6t3h" path="res://scenes/player.tscn" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://bqq5vc4goset7" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="2_0e48y"]
 [ext_resource type="PackedScene" uid="uid://dgow0sjcq2dud" path="res://scenes/platform.tscn" id="3_epypp"]
-[ext_resource type="PackedScene" uid="uid://f5mmp7x0a8oa" path="res://area_2d.tscn" id="4_0hol4"]
+[ext_resource type="PackedScene" uid="uid://dbml6y5c6i5xp" path="res://scenes/coin.tscn" id="4_0hol4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_epypp"]
 texture = ExtResource("2_0e48y")
@@ -288,5 +288,5 @@ libraries = {
 }
 autoplay = "move"
 
-[node name="coin" parent="." instance=ExtResource("4_0hol4")]
-position = Vector2(38, -11)
+[node name="Coin" parent="." instance=ExtResource("4_0hol4")]
+position = Vector2(44, -25)
